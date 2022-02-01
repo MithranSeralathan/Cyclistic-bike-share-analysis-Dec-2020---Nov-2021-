@@ -193,6 +193,8 @@ all_trips %>%
   geom_col(width=0.7, position = position_dodge(width=0.7)) + 
   labs(title ="Average ride length by customer type Vs. Day of week")
 ```
+![image](https://user-images.githubusercontent.com/98275485/152029484-473868b3-2406-4756-a19e-7eb971e4ebbe.png)
+
 
 * Visualization of average ride length by customer type on each month
 
@@ -204,6 +206,8 @@ all_trips %>%
   geom_col(width=0.7, position = position_dodge(width=0.7)) + 
   labs(title ="Average ride length by customer type Vs. Month")
 ```
+![image](https://user-images.githubusercontent.com/98275485/152029550-2f75a07e-5b8a-419b-afd7-04925d86e609.png)
+
 
 ## Act phase
 
