@@ -37,6 +37,7 @@ Stakeholders : Director of marketing and Cyclistic executive team
 * To differentiate and label the visualization I have included User_type in the color and lable mark
 * Also included forecast indicator to predict till february 2022
 ![Monthly Usage](https://user-images.githubusercontent.com/98275485/151932061-d037a928-0085-4a17-bb70-fddcd7c90071.png)
+
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
 
 
@@ -44,14 +45,15 @@ Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/vi
 * with day_of_week and user_type as a row and column as the count of ride_id
 * To differentiate the user type I have included User_type in the color mark
 
-![Week Usage.png](C:\Users\Mithr\OneDrive\Documents\Case_Study_Dec_Cyclistic_2020 to Dec 2021\images\Week Usage.png)
+![Week Usage](https://user-images.githubusercontent.com/98275485/151932155-cb8da5f2-4877-48da-8047-a8d585017cce.png)
 
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
 
 
 * Created a dashboard with some other useful visualization like percentage of user type and rideable type Vs. the total ride which is presented below for your reference
 
-![Dashboard](C:\Users\Mithr\OneDrive\Documents\Case_Study_Dec_Cyclistic_2020 to Dec 2021\images\Dashboard.png)
+![Dashboard](https://user-images.githubusercontent.com/98275485/151932169-8fa14ed7-81ad-4f9f-8c8d-10d35162014e.png)
+
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
 
 
