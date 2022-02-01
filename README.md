@@ -1,17 +1,3 @@
----
-title: "Cyclistic bike-share analysis(Dec 2020 - Nov 2021)"
-author: "by Mithran"
-output: 
-  html_document: 
-    theme : bootstrap
-    toc : true  
-    toc_float : true
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## **Case study: How Does a Bike-Share Navigate Speedy Success?**
 * Period : Dec 2020 to Nov 2021
 * Completed on : Jan 2022
@@ -50,7 +36,7 @@ Stakeholders : Director of marketing and Cyclistic executive team
 * Created a visualization for monthly usage with counts of ride_id as a row and column as the start_at
 * To differentiate and label the visualization I have included User_type in the color and lable mark
 * Also included forecast indicator to predict till february 2022
-![Monthly Usage.png](C:\Users\Mithr\OneDrive\Documents\Case_Study_Dec_Cyclistic_2020 to Dec 2021\images\Monthly Usage.png)
+![Monthly Usage](https://user-images.githubusercontent.com/98275485/151932061-d037a928-0085-4a17-bb70-fddcd7c90071.png)
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
 
 
