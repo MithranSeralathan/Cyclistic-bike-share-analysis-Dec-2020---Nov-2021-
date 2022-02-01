@@ -36,6 +36,7 @@ Stakeholders : Director of marketing and Cyclistic executive team
 * Created a visualization for monthly usage with counts of ride_id as a row and column as the start_at
 * To differentiate and label the visualization I have included User_type in the color and lable mark
 * Also included forecast indicator to predict till february 2022
+
 ![Monthly Usage](https://user-images.githubusercontent.com/98275485/151932061-d037a928-0085-4a17-bb70-fddcd7c90071.png)
 
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
