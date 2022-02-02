@@ -2,17 +2,31 @@
 * Period : Dec 2020 to Nov 2021
 * Completed on : Jan 2022
 
+# Table of Contents
+* [Introduction](#section-one)
+* [Ask phase](#section-two)
+* [Prepare phase](#section-third)
+* [Process & Analyze phasee](#section-fourth)
+<a id="section-one"></a><br>
+    - [Excel](#subsection-one)
+    - [Tableau](#subsection-two)
+    - [R programming](#subsection-three)
+* [Share Phase](#section-fifth)
+* [Act phase](#section-sixth)
+* [Resources](#section-seventh)
+
+<a id="section-one"></a><br>
 ## Introduction
 This case study serves as the capstone of the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=google&utm_medium=institutions&utm_campaign=gwgsite-gDigital-paidha-sem-bk-data-exa-glp-br-null). Here, I assumed the role of a data analyst working on the marketing team at Cyclistic, a fictional bike-share company in Chicago. The director of marketing believes that the companies future depends upon maximizing the number of annual memberships. My goal was to answer the question: How do casual riders and annual members use Cyclistic bikes differently? I used the data analysis process of Ask, Prepare, Process, Analyze, Share and Act  to answer key business questions, as well as I used the tools such as Excel,Tableau,and R programming language.
 The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement)
 
-
+<a id="section-two"></a><br>
 ## Ask phase
 The problem I'm trying to solve : How do annual members and casual riders use Cyclistic bikes differently?
 My insights for this case study : The differences in the variables and their relations, would give key information to describe the
 difference in user type (member or casual) and it will generate useful information to guide the future marketing program and the above question.
 
-
+<a id="section-third"></a><br>
 ## Prepare phase
 I have used Cyclistic’s historical trip data to analyze and identify trends from the website - [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html).
 This data that has been made publicly available has been scrubbed to omit rider's personal information.
@@ -21,16 +35,17 @@ This data that has been made publicly available has been scrubbed to omit rider'
   * R programming to calculate ride length and Visualization of average ride length by customer type on each month and day of the week
 
 Stakeholders : Director of marketing and Cyclistic executive team
-
+                            
+<a id="section-fourth"></a><br>
 ## Process & Analyze phase
-
+<a id="subsection-one"></a><br>
 ### Excel
 
 * Remove unwanted columns such as start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat and end_lng
 * Aligned and rename the headers for 12 files to the same formate such as ride_id, rideable_type, start_at, end_at, and user_type
 * Created a new column called day_of_week to find the day of the week from the start_at column using the function "=TEXT(C2,"dddd")
 * And saved all the files in a CSV format into a new folder called cleaned CSV files
-
+<a id="subsection-two"></a><br>
 ### Tableau
 * Loaded all the 12 csv files in the tableau tool and combined all the data into a single data frame by using union 
 * Created a visualization for monthly usage with counts of ride_id as a row and column as the start_at
@@ -57,7 +72,7 @@ Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/vi
 
 Please [click here](https://public.tableau.com/app/profile/mithran.seralathan/viz/Casestudyfordec2020toNov2021/CyclisticCasestudy) for a interactive view
 
-
+<a id="subsection-three"></a><br>
 ### R programming
 
 * Installing and reading Packages
@@ -159,7 +174,7 @@ head(all_trips)
 # remove negative from ride length
 all_trips <- all_trips[all_trips$ride_length >= 0,]
 ```
-
+<a id="section-fifth"></a><br>
 ## Share Phase
 * Statistical summary of trip_duration by customer_type
 
@@ -209,7 +224,7 @@ all_trips %>%
 ```
 ![image](https://user-images.githubusercontent.com/98275485/152029550-2f75a07e-5b8a-419b-afd7-04925d86e609.png)
 
-
+<a id="section-sixth"></a><br>
 ## Act phase
 
 To guide the marketing campaign to convert casual riders into annual members, we now have some data driven insights on how casual riders and annual members use Cyclistic bikes differently. The key findings and my recommendations for the marketing campaign are as follows:
@@ -221,6 +236,7 @@ To guide the marketing campaign to convert casual riders into annual members, we
 > Develop a weekend membership plan whereby rides on the weekends are included in the base price while members have the option to book weekday rides at a lower rate
 > or Offer discounted pricing during non-busy hours so that casual riders might choose to use bikes more often and level out demand over the day
 
+<a id="section-seventh"></a><br>
 ## Resources
 
 [Kaggle community](https://www.kaggle.com/)
